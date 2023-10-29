@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Semantic Tags</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <!-- sematinc tag meaning it provides a meaning -->
+    <!-- for headings one page can have many headers -->
+    <header>
+        <h1>Semantic Tags</h1>
+        <!-- one page can have multi nav like nav for footer
+        we have to label them for different nav -->
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    got to &nbsp;<a href="#hr">hr</a>
+                </li>
+                <li>
+                    got to &nbsp;<a href="#form">form</a>
+                </li>
+                <li>
+                    got to &nbsp;<a href="#figure">figure</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <main></main> one main element per page
+    main tag for our page content -->
+    <main>
+
+        <!-- <aside></aside>  used as sidebar or not very important section-->
+        <aside>
+            <!-- details works together with summary  -->
+            <details>
+                <!-- summary provides a dropdonw for the answer  -->
+                <!-- mark is used to highlight  -->
+                <summary>Guess the <mark>no of hours</mark> i code per day ?</summary>
+                <p>i start <time datetime="08:00">at 8</time> and code 3 hours every morining.</p>
+            </details>
+        </aside>
+        <!-- TABLE -->
+        <!-- table expands only to data of table 
+        unlike p or aside or other which expands to page width -->
+        <table>
+            <!-- <caption>will say what table is about</caption> -->
+            <caption>My Daily Schedule</caption>
+            <thead>
+                <tr>
+                    <!-- &nbsp; is html entity -->
+                    <th>&nbsp;</th>
+                    <!-- scope is used to semantic meaning -->
+                    <th scope="col">Time</th>
+                    <th scope="col">Activity</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="08:00">8am</time>-
+                    <time datetime="011:00">11am</time>
+                </td>
+                <td>To write code</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="11:00">11am</time>-
+                    <time datetime="12:00">12am</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="12:00">12am</time>-
+                    <time datetime="05:00">5am</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <!-- <td colspan="2">Free Time</td> 
+                *colspan will define no of column the data will take-->
+                <!-- similar to colspan *rowspan will take two rows -->
+                <td rowspan="2">All other time</td>
+                <td>Free Time</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And thats what i do every do 5 day s a week ,
+                    just each, sleep, code and recharge
+                </td>
+            </tr>
+        </tfoot>
+        </table>
+        <!-- article is also a semantic tag
+        article or section both works fine section is more generic
+     -->
+        <article id="hr">
+            <h2>hr is also considered semantic Tag</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+        </article>
+        <section id="form">
+            <h2>form is also considered semantic Tag</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+        </section>
+        <section id="figure">
+            <h2>figure is also considered semantic Tag</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas distinctio quidem recusandae vitae
+                quaerat,
+                aliquid ipsum rem ea minima. Molestias ullam repudiandae sapiente odit voluptate quaerat harum
+                consequatur
+                ad possimus.</p>
+        </section>
+        <!-- avoid using div -->
+        <!-- div is like section without semantic meaning
+        to convey meaning we have to add many attribute
+        it is block element -->
+        <!-- we will use div and span only when it comes down to css  -->
+        <div></div>
+        <!-- similar is span like div no -->
+        <span></span>
+    </main>
+    <!-- footer can be multiple per page -->
+    <footer>
+        <p>
+            &copy;<a href="about.html">about author</a>
+        </p>
+    </footer>
+</body>
+
+</html>

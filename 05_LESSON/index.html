@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hyper Links</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="OIP.jpg">
+</head>
+
+<body>
+    <h3>This is we page</h3>
+    <p>web uses resouces from <abbr title="mozilla developer network">
+        <a href="https://developer.mozilla.org">MDN</a></abbr>
+    </p>
+
+    <!-- semantic tag for navigation <nav></nav> -->
+    <nav>
+        <ul>
+            <li>
+                <!-- this following code is to give links in same page
+                and it will sroll to same page -->
+                <a href="#page">About this page</a>
+            </li>
+            <li>
+                <a href="#page">What i Like </a>
+            </li>
+            <li>
+                <!-- code to download the icon download attribute -->
+                <a href="OIP.jpg" download="">download the Website Html Icon</a>
+            </li>
+            <li>
+                <!-- dialing the telepahone no -->
+                Dial at <a href="tel:+999999999">My Phone</a>
+            </li>
+            <li>
+                <!-- for emailing althought not advise -->
+                <a href="mailto:random@email.com">email me</a>
+            </li>
+            <li>
+                <!-- _blank will open new tab and open the link -->
+                Open <a href="https://www.google.com" target="_blank">Google <em>in new tab</em> </a>
+            </li>
+            <li>
+                <!-- link to root page -->
+                <a href="./">Home</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+    <!-- this will redirect to about page which is in same folder -->
+    <p><a href="about.html">&copy; Gaurav Gaikwad</a></p>
+    
+    <p><a href="#">This page</a></p>
+
+    <!-- to divide the code in sections <section></section> -->
+    <section id="page">
+        <h2>this is page</h2>
+        <dl>
+            <dt>about the web</dt>
+            <dd>it has some description</dd>
+        </dl>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem alias placeat, numquam architecto laboriosam
+            consequatur nemo molestiae, laudantium vitae quibusdam maiores est delectus asperiores! Blanditiis repellendus
+            odio asperiores neque facilis?</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem alias placeat, numquam architecto laboriosam
+                consequatur nemo molestiae, laudantium vitae quibusdam maiores est delectus asperiores! Blanditiis repellendus
+                odio asperiores neque facilis?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem alias placeat, numquam architecto laboriosam
+                    consequatur nemo molestiae, laudantium vitae quibusdam maiores est delectus asperiores! Blanditiis repellendus
+                    odio asperiores neque facilis?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem alias placeat, numquam architecto laboriosam
+                        consequatur nemo molestiae, laudantium vitae quibusdam maiores est delectus asperiores! Blanditiis repellendus
+                        odio asperiores neque facilis?</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem alias placeat, numquam architecto laboriosam
+                            consequatur nemo molestiae, laudantium vitae quibusdam maiores est delectus asperiores! Blanditiis repellendus
+                            odio asperiores neque facilis?</p>
+    </section>
+    <section id="about">
+        <h2>what i like</h2>
+        <ul>
+            <li><p>core java i like</p></li>
+            <li>i sit to work as developer</li>
+            <li>
+                <p>i am from india:</p>
+                <address>
+                    india the country <br>
+                    maharashtra is state <br>
+                </address>
+            </li>
+        </ul>
+    </section>
+</body>
+
+</html>
